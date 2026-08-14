@@ -10,7 +10,7 @@ gemini extensions install https://github.com/mnemoverse/gemini-extension
 
 ## First run: sign in once, no API key
 
-The server at `https://mcp.mnemoverse.com/mcp` uses OAuth 2.1 with PKCE. On first use Gemini CLI opens a browser sign-in on a localhost callback; sign in to your Mnemoverse account (free tier at [console.mnemoverse.com](https://console.mnemoverse.com), no credit card) and grant the requested scopes, which include `memory:read` and `memory:write`. There is no API key to paste, and access can be revoked at any time from the console.
+The server at `https://mcp.mnemoverse.com/mcp` uses OAuth 2.1 with PKCE. On first use Gemini CLI opens a browser sign-in on a localhost callback; sign in to your Mnemoverse account (free tier at [console.mnemoverse.com](https://console.mnemoverse.com?utm_source=github&utm_medium=readme&utm_campaign=gemini-extension), no credit card) and grant the requested scopes, which include `memory:read` and `memory:write`. There is no API key to paste, and access can be revoked at any time from the console.
 
 ## What you get
 
