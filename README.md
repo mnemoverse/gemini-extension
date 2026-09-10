@@ -24,6 +24,7 @@ Only what you or the agent explicitly save through the memory tools: single fact
 
 ## Troubleshooting
 
+- Check what is installed and its status first: run `/extensions` inside Gemini CLI. For the connection itself, `/mcp` shows the server state.
 - No browser window on first use: check the server status with `/mcp` inside Gemini CLI, then retry a memory call.
 - `401` after it used to work: the token expired; the next call normally refreshes it. If not, remove and re-install the extension to re-run sign-in.
 - More: [docs](https://mnemoverse.com/docs/api/remote-mcp-server).
