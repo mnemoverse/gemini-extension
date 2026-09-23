@@ -14,7 +14,7 @@ The server at `https://mcp.mnemoverse.com/mcp` uses OAuth 2.1 with PKCE. On firs
 
 ## What you get
 
-Ten tools from the remote server: `memory_read`, `memory_write`, `memory_list_recent`, `memory_stats`, `memory_feedback`, four shared-room tools, and `vault_list` (aliases only, values are never returned). The two delete tools available in the [local package](https://mnemoverse.com/docs/api/mcp-server) are deliberately not exposed over the remote connector, so a one-time sign-in can never wipe memory.
+Ten tools from the remote server: `memory_read`, `memory_write`, `memory_list_recent`, `memory_stats`, `memory_feedback`, four shared-room tools, and `vault_list` (aliases only, values are never returned). Neither the remote connector nor the [local package](https://mnemoverse.com/docs/api/mcp-server) has a delete tool, so a one-time sign-in can never wipe memory.
 
 The bundled `GEMINI.md` adds the discipline that makes connected memory actually get used: recall before acting, save durable decisions and corrections, close superseded facts instead of overwriting them. These rules are backend-neutral and are also published standalone as the CC0 [agent-memory-discipline](https://github.com/mnemoverse/agent-memory-discipline) skill.
 
