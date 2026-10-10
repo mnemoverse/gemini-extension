@@ -20,7 +20,7 @@ The bundled `GEMINI.md` adds the discipline that makes connected memory actually
 
 ## What gets stored, and what does not
 
-Only what you or the agent explicitly save through the memory tools: single facts, decisions, corrections. It does not record conversations and does not read your chat history. Privacy policy: [mnemoverse.com/privacy](https://mnemoverse.com/privacy).
+Only what you or the agent explicitly save through the memory tools: single facts, decisions, corrections. It does not record conversations and does not read your chat history. Privacy policy: [mnemoverse.com/docs/legal/privacy-policy](https://mnemoverse.com/docs/legal/privacy-policy).
 
 ## Troubleshooting
 
